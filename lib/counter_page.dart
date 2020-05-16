@@ -19,6 +19,7 @@ class CounterPage extends StatelessWidget {
         },
       ),
       floatingActionButton: Row(
+        mainAxisAlignment: MainAxisAlignment.end,
         children: <Widget>[
           FloatingActionButton(
             child: Icon(Icons.remove),
